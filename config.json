@@ -1,0 +1,59 @@
+{
+    "type": "SettingsConfiguration",
+    "audio": {
+      "input": {
+        "encoding": "",
+        "sample_rate": 16000
+      },
+      "output": {
+        "encoding": "",
+        "sample_rate": 16000,
+        "bitrate": 0,
+        "container": ""
+      }
+    },
+    "agent": {
+      "listen": {
+        "model": ""
+      },
+      "think": {
+        "provider": {
+          "type": ""
+        },
+        "model": "",
+        "instructions": "",
+        "functions": [
+          {
+            "name": "",
+            "description": "",
+            "url": "",
+            "headers": [
+              {
+                "key": "authorization",
+                "value": ""
+              }
+            ],
+            "method": "post",
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "item": {
+                  "type": "string",
+                  "description": ""
+                }
+              },
+              "required": ["item"]
+            }
+          }
+        ]
+      },
+      "speak": {
+        "model": ""
+      }
+    },
+    "context": {
+      "messages": [],
+      "replay": false
+    }
+  }
+  
